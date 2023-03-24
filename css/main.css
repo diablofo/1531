@@ -58,4 +58,15 @@ nav{
     background-color: black;
     position: fixed;
     display: flex;
+    justify-content: space-around;
+}
+nav > a{
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav > img{
+    margin-top: 10px;
 }
