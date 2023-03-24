@@ -15,7 +15,6 @@
 body{
     background-color: var(--backgroundcolor);
     color: #0D0D0D;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .image-navigation{
@@ -86,7 +85,6 @@ body{
 .image-navigation > .container > a:hover{
     background-color: #025939;
     box-shadow: #0d0d0d81 1px 1px 3px;
-    
 }
 
 
@@ -156,6 +154,25 @@ body{
     line-height: 5vh;
 }
 
+.form{
+    height: 1vh;
+    width: 100%;
+}
+
+.form > form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.form > form > input{
+    width: 80%;
+    height: 2px;
+}
+
 /*mobile version*/
 @media screen and (max-width:800px){
     *{
@@ -182,7 +199,7 @@ nav > a{
     margin-top: 20px;
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 nav > img{
@@ -217,10 +234,6 @@ header > img{
     color: white;
     font-weight: bolder;
 }
-.seperator strong{
-    color: var(--lightgreen);
-    font-size: 20px;
-}
 .seperator h3{
     color: var(--lightbrown);
     margin-top: 10px;
@@ -230,13 +243,7 @@ header > img{
     margin-top: 15px;
     font-weight: lighter;
 }
-.seperator hr{
-    border: 2px solid var(--lightbrown);
-    text-align: center;
-    margin-left: 10%;
-    width: 75%;
-    margin-top: 15px;
-}
+
 .about > .container{
     background-color: pink;
     color: black;
@@ -248,27 +255,21 @@ header > img{
 .about > .container > .item1{
     background-color: white;
     width: 20%;
-    border-left: 10px solid rgb(83, 10, 10);
-    border-bottom: 10px solid rgb(83, 10, 10);
+    border: 1px solid black;
 }
 .about > .container > .item2{
     background-color: rgb(255, 255, 255);
     width: 20%;
-    border-left: 10px solid rgb(83, 10, 10);
-    border-bottom: 10px solid rgb(83, 10, 10);
+    border: 1px solid black;
 }
 .about > .container > .item3{
     background-color: rgb(255, 255, 255);
     width: 20%;
-    border-left: 10px solid rgb(83, 10, 10);
-    border-right: 10px solid rgb(83, 10, 10);
-    border-bottom: 10px solid rgb(83, 10, 10);
+    border: 1px solid black;
 }
 .about > .container > .item4{
     background-color: blue;
     width: 40%;
-    border-bottom: 10px solid rgb(83, 10, 10);
-
 }
 .about > .container > .item4 img{
     width: 100%;
@@ -276,17 +277,17 @@ header > img{
 }
 .about > .container h1{
     text-align: center;
-    color: var(--lightgreen);
+    color: var(--lightgreen)
 }
 .about > .container p{
     margin-left: 10px;
-    color: var(--black);
+    color: var(--black)
 }
 .about > .container p, h2, h3{
     margin-top: 20px;
 }
 .about > .container h2, h3{
-    color: var(--lightbrown);
+    color: var(--lightbrown)
 }
 .about > .container h2, h3, p{
     margin-left: 10px;
