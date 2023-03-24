@@ -137,6 +137,28 @@ header > img{
     width: 100%;
     height: 100%;
 }
+
+.seperator{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(83, 10, 10);
+    text-align: center;
+}
+.seperator h1{
+    padding-top: 15px;
+    color: white;
+    font-weight: bolder;
+}
+.seperator h3{
+    color: var(--lightbrown);
+    margin-top: 10px;
+}
+.seperator h4{
+    color: var(--backgroundcolor);
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
 .about > .container{
     background-color: pink;
     color: black;
@@ -146,17 +168,17 @@ header > img{
     justify-content: space-around;
 }
 .about > .container > .item1{
-    background-color: red;
+    background-color: white;
     width: 20%;
     border: 1px solid black;
 }
 .about > .container > .item2{
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     width: 20%;
     border: 1px solid black;
 }
 .about > .container > .item3{
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     width: 20%;
     border: 1px solid black;
 }
@@ -164,12 +186,24 @@ header > img{
     background-color: blue;
     width: 40%;
 }
+.about > .container > .item4 img{
+    width: 100%;
+    height: 100%;
+}
 .about > .container h1{
     text-align: center;
+    color: var(--lightgreen)
 }
 .about > .container p{
     margin-left: 10px;
+    color: var(--black)
 }
 .about > .container p, h2, h3{
     margin-top: 20px;
+}
+.about > .container h2, h3{
+    color: var(--lightbrown)
+}
+.about > .container h2, h3, p{
+    margin-left: 10px;
 }
