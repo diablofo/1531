@@ -25,9 +25,21 @@ body{
     justify-content: center;
 }
 
-.image-navigation > .container > img{
-    width: 100%;
+.image-navigation > :nth-child(1) > .container > .box{
+    background-image: url(../media/JPEG/law-advice-and-legal-services-concept-2022-11-11-18-29-01-utc.jpg);
+
 }
+
+.image-navigation > :nth-child(1) > .box{
+    background-image: url(../media/JPEG/);
+
+}
+
+.image-navigation > :nth-child(1) > .box{
+    background-image: url(../media/JPEG/);
+
+}
+
 
 
 
