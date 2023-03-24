@@ -125,3 +125,39 @@ header > img{
     width: 100%;
     height: 100%;
 }
+.about > .container{
+    background-color: pink;
+    color: black;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+}
+.about > .container > .item1{
+    background-color: red;
+    width: 20%;
+    border: 1px solid black;
+}
+.about > .container > .item2{
+    background-color: red;
+    width: 20%;
+    border: 1px solid black;
+}
+.about > .container > .item3{
+    background-color: red;
+    width: 20%;
+    border: 1px solid black;
+}
+.about > .container > .item4{
+    background-color: blue;
+    width: 40%;
+}
+.about > .container h1{
+    text-align: center;
+}
+.about > .container p{
+    margin-left: 10px;
+}
+.about > .container p, h2, h3{
+    margin-top: 20px;
+}
