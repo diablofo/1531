@@ -155,10 +155,17 @@ body{
 }
 
 .form{
+    margin-top: 200px;
     height: 1vh;
     width: 100%;
 }
-
+.submit{
+    background-color: green;
+    color: white;
+}
+input[type=text]{
+    border: 1px solid green;
+}
 .form > form{
     display: flex;
     justify-content: space-between;
@@ -183,6 +190,25 @@ body{
     *{
         margin: 0;
     }
+    body{
+        overflow-x: hidden;
+    }
+    .container > .item4{
+        display: none;
+    }
+    .container > .item1{
+        width: 33%;
+    }
+    .container > .item2{
+        width: 33%;
+    }
+    .container > .item3{
+        width: 33%;
+    }
+    .container{
+        justify-content: space-between;
+    }
+
 }
     
 
