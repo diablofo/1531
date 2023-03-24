@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/main.css">
 <body>
+    <div class="desktop">
     <nav>
         <a href="#">About</a>
         <a href="/html/contact.html">Contact</a>
@@ -14,5 +15,51 @@
         <a href="../index.html">Home</a>
         <a href="#">List</a>
     </nav>
+    </div>
+    <div class="form">
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname">
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname">
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone">
+
+            <label for="email">Email Adress</label>
+            <input type="email" name="email">
+
+            <label for="city">City</label>
+            <input type="text" name="city">
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname">
+
+            <label for="income">Adjusted Annual Gross Income</label>
+            <input type="text" name="income">
+            
+            <label for="people">Number of Persons in Household</label>
+            <select name="people">
+                <option value="notsure">I am not sure/Other</option>
+                <option value="general">General Civil Law</option>
+                <option value="family">Family Law</option>
+                <option value="estate">Estate/Probate Law</option>
+                <option value="criminal">Criminal Law</option>
+              </select>
+
+              <label for="case">Type of Case</label>
+            <select name="case">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5+">5+</option>
+              </select>
+
+              <label for="existing">Existing Case #</label>
+              <input type="text" name="Existing">
+        </form>
+    </div>
 </body>
 </html>
