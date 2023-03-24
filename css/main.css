@@ -140,7 +140,7 @@ body{
 
 .content > .container > .image{
     height: 80%;
-    background-image: url(../media/JPEG/law-2022-11-17-06-05-31-utc.jpg);
+    background-image: url(../media/JPEG/juridical-books-with-hammer-on-wooden-table-law-c-2022-12-16-18-26-48-utc.jpg);
     background-position: center;
     background-size: cover;
     margin: 0 20px;
@@ -170,12 +170,13 @@ body{
 nav{
     height: 75px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(38, 10, 0);
     position: sticky;
     display: flex;
     justify-content: space-around;
     top: 0;
     right: 0;
+
 }
 
 nav > a{
@@ -183,6 +184,14 @@ nav > a{
     color: white;
     text-decoration: none;
     font-size: 18px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+nav > a:hover{
+    font-size: 19px;
+    text-decoration: none;
+    color: var(--lightgreen)
 }
 
 nav > img{
