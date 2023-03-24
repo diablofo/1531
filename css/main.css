@@ -1,3 +1,13 @@
+:root{
+    --backgroundcolor: #F2F2F2;
+    --darkgreen: #025939;
+    --lightgreen: #68A68F;
+    --lightbrown: #D9D5A3;
+    --black: #0D0D0D;
+}
+
+
+
 @media screen and (max-width:300px){
     
 }
