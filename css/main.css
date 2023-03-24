@@ -89,7 +89,12 @@ body{
 }
 
 
-
+.content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    height: 75vh;
+}
 
 /*mobile version*/
 @media screen and (max-width:800px){
