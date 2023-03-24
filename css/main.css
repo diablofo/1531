@@ -58,3 +58,12 @@ nav > a{
 nav > img{
     margin-top: 10px;
 }
+/*Header*/
+header{
+    width: 100%;
+    height: 75vh;
+}
+header > img{
+    width: 100%;
+    height: 100%;
+}
