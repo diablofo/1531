@@ -23,6 +23,7 @@ body{
     grid-template-columns: 33.3% 33.3% 33.3%;
     grid-template-rows: 100%;
     justify-content: center;
+    height: 50vh ;
 }
 
 .image-navigation > :nth-child(1) > .container > .box{
@@ -44,13 +45,13 @@ body{
 
 
 /*mobile version*/
-@media screen and (max-width:800px){
+@media screen and (max-width:800px;){
     
 }
+    
 
-*{
-    margin: 0;
-}
+
+
 /*NAV BAR*/
 nav{
     height: 75px;
