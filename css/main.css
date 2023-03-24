@@ -25,3 +25,15 @@ body{
 @media screen and (max-width:800px){
     
 }
+
+*{
+    margin: 0;
+}
+/*NAV BAR*/
+nav{
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    display: flex;
+}
