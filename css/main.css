@@ -167,6 +167,7 @@ header > img{
 }
 .seperator h4{
     color: var(--backgroundcolor);
+    font-size: 18px;
     margin-top: 15px;
     font-weight: lighter;
 }
@@ -192,16 +193,13 @@ header > img{
     border-bottom: 10px solid rgb(83, 10, 10);
 }
 .about > .container > .item2{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(250, 246, 246);
     width: 20%;
-    border-left: 10px solid rgb(83, 10, 10);
     border-bottom: 10px solid rgb(83, 10, 10);
 }
 .about > .container > .item3{
     background-color: rgb(255, 255, 255);
     width: 20%;
-    border-left: 10px solid rgb(83, 10, 10);
-    border-right: 10px solid rgb(83, 10, 10);
     border-bottom: 10px solid rgb(83, 10, 10);
 }
 .about > .container > .item4{
@@ -217,17 +215,30 @@ header > img{
 .about > .container h1{
     text-align: center;
     color: var(--lightgreen);
+    text-decoration: underline;
 }
 .about > .container p{
     margin-left: 10px;
     color: var(--black);
+    font-size: 18px;
 }
 .about > .container p, h2, h3{
     margin-top: 20px;
 }
-.about > .container h2, h3{
+.about > .container h3{
     color: var(--lightbrown);
+}
+.about > .container h2{
+    color: var(--darkgreen);
 }
 .about > .container h2, h3, p{
     margin-left: 10px;
+}
+footer{
+    height: 50vh;
+    width: 100%;
+}
+footer img{
+    object-fit: cover;
+    opacity: 0.5;
 }
